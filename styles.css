@@ -34,12 +34,19 @@ h1, h2, p {
    .established {
     font-style: italic;
   }
+
+  hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+
    /* Styling font for h1 & h2 only, different from body */
    h1, h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    }
    
-   /* Setting font-size for individual elements h1 & h2 */
+   /* Setting font-size individually for elements h1 & h2 */
    h1 {
     font-size: 40px;
   }
