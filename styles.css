@@ -39,3 +39,11 @@ h1, h2, p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    }
    
+   /* Setting font-size for individual elements h1 & h2 */
+   h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
