@@ -45,6 +45,11 @@ h1, h2, p {
     border-color: brown;
   }
 
+  /* FOOTER */
+  footer {
+    font-size: 14px;
+  }
+
    /* Styling font for h1 & h2 only, different from body */
    h1, h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -62,4 +67,21 @@ h1, h2, p {
   /* Styling the second hr element */
   .bottom-line {
     margin-top: 25px;
+  }
+
+  a {
+    color: black;
+  }
+/* pseudo-selectors */
+
+  a:visited {
+    color: grey;
+  }
+
+  a:hover {
+    color: brown;
+  }
+
+  a:active {
+    color: white;
   }
