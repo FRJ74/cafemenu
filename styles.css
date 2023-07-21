@@ -32,6 +32,7 @@ h1, h2, p {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 18px;
    }
 
    .established {
@@ -56,4 +57,9 @@ h1, h2, p {
   
   h2 {
     font-size: 30px;
+  }
+
+  /* Styling the second hr element */
+  .bottom-line {
+    margin-top: 25px;
   }
