@@ -50,6 +50,10 @@ h1, h2, p {
     font-size: 14px;
   }
 
+  .address {
+    margin-bottom: 5px;
+  }
+
    /* Styling font for h1 & h2 only, different from body */
    h1, h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -58,6 +62,8 @@ h1, h2, p {
    /* Setting font-size individually for elements h1 & h2 */
    h1 {
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
   }
   
   h2 {
@@ -76,13 +82,13 @@ h1, h2, p {
 /* pseudo-selectors */
 
   a:visited {
-    color: grey;
+    color: black;
   }
 
   a:hover {
-    color: brown;
+    color: white;
   }
 
   a:active {
-    color: white;
+    color: rgba(237, 126, 29, 0.984);
   }
